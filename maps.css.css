@@ -1,0 +1,65 @@
+body {
+  background: url(https://ithelp.illinoisstate.edu/img/0d4b9b490c2e4f4070aaf7211bc2e9269aef5423.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover ;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.homepage {
+  color: #08A7FE;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+#btn {
+  padding-top: 450px;
+
+}
+
+.btn {
+  background-color: #08A7FE;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 50px;
+  opacity: 1;
+  transition: 0.3s;
+  position: relative;
+  left: 0px;
+}
+
+
+.line-1{
+  position: relative;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid #08A7FE(255,255,255,.75);
+  font-size: 300%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.anim-typewriter{
+animation: typewriter 7s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+
+}
+
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: #08A7FE(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
