@@ -1,0 +1,60 @@
+body{
+  background-color:white;
+  color: black;
+  margin: 20px;
+  background-image: url(https://i.pinimg.com/originals/68/5e/18/685e18ff8147427079a14ce27d984688.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;}
+
+.header{
+  text-align: center;
+  margin: 50px;
+  line-height: 2rem;
+}
+
+.how-to{
+  text-align:center;
+  margin: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.instructions {
+  text-align: center;
+  line-height: 1rem;
+}
+
+.button-container{
+  margin: 0 auto;
+  width: 270px;
+  margin-lef: 540px;
+}
+
+.btn{
+  color: black;
+  height: auto;
+  border: 2px solid rgb(87, 29, 29) ;
+  width: auto;
+  float: left;
+  display: block;
+  position: relative;
+  padding: 5px;
+  margin: 0 auto;
+  margin-right: 20px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.btn p{
+  color: black;
+  text-align: center;
+  margin: 0 10px;
+  vertical-align: center;
+  text-decoration: none;
+  }
+
+.btn:hover {
+  color: rgb(235, 221, 221);
+}
