@@ -1,0 +1,71 @@
+/*sources: https://www.youtube.com/watch?v=WyLPtIxnE9E*/
+.load{
+  animation: slide 2s;
+}
+
+.content{
+  color: yellow;
+  width: 100%;
+  height: 100vh;
+}
+
+.text{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+/*You flunk!*/
+.text h1{
+  font-size: 70px;
+}
+
+/*Instagram won't teach you history!*/
+.text h2{
+  font-size: 40px;
+}
+
+.slider{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0%{
+    background-image: url('Screen Shot 2020-07-09 at 12.04.07.png');
+  }
+  20%{
+    background-image: url('Screen Shot 2020-07-09 at 12.04.07.png');
+  }
+  20.01%{
+    background-image: url('Screen Shot 2020-07-09 at 12.02.55.png');
+  }
+  40%{
+    background-image: url('Screen Shot 2020-07-09 at 12.02.55.png');
+  }
+  40.01%{
+    background-image: url('Screen Shot 2020-07-09 at 12.03.28.png');
+  }
+  60%{
+    background-image: url('Screen Shot 2020-07-09 at 12.03.28.png');
+  }
+  60.01%{
+    background-image: url('Screen Shot 2020-07-09 at 12.03.46.png');
+  }
+  80%{
+    background-image: url('Screen Shot 2020-07-09 at 12.03.46.png');
+  }
+  80.01%{
+    background-image: url('Screen Shot 2020-07-09 at 12.03.52.png');
+  }
+  100%{
+    background-image: url('Screen Shot 2020-07-09 at 12.03.52.png');
+  }
+}

@@ -1,0 +1,16 @@
+/*Sources: https://codepen.io/leemark/pen/dJxHp
+https://stackoverflow.com/questions/5119711/whats-the-easiest-way-to-put-space-between-2-side-by-side-buttons-in-asp-net
+https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html*/
+
+/*Background gif*/
+@import url('prince1.gif');
+html {
+  background:  url(prince1.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*Text: What do you do?*/
+.content h1{
+  font-size: 70px;
+  color: pink;
+}
