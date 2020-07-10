@@ -1,0 +1,66 @@
+body{
+  background: white;
+  background-image: url(https://i.ytimg.com/vi/at-lccv7mEY/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*https://tr1.cbsistatic.com/hub/i/2019/01/18/210376e0-8eb1-4f4e-96d1-f1f90af8f843/olddesktopistock-96225501devonyu.jpg  https://i.pinimg.com/originals/ba/83/c7/ba83c701e5b18ae5c39c18ae22d4b7ec.jpg*/
+
+.lecture-video {
+  position: relative;
+  width: 80%;
+  padding-bottom: 37%;
+  height: 0;
+}
+
+.lecture-video iframe{
+  margin: 0 auto 0 auto;
+  width: 50%;
+  height: 400px;
+  margin-left: 220px;
+  margin-top: 90px;
+}
+
+.buttonss{
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.btn{
+  color: black;
+  background-color: white;
+  height: 2rem;
+  padding: auto;
+  border: 2px solid black ;
+  border-radius: 30px;
+  margin-top: 0;
+  padding-bottom: 15px;
+  width: 10rem;
+  margin: 0 200px;
+  float: left;
+  margin: 0 4rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color:rgb(37, 197, 202);
+  color: black;
+}
+
+.text{
+  text-align: center;
+  float: right;
+  max-width: 40%;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 250px;
+  background-color: rgb(37, 197, 202);
+  border: none;
+  border-radius: 60px;
+}
